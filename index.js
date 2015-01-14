@@ -1,4 +1,3 @@
-var http = require('http');
 var dns = require('dns');
 
 var lookup = dns.lookup;
@@ -21,6 +20,3 @@ dns.lookup = function() {
   args.push(new_callback);
   lookup.apply(null, args);
 };
-
-http
-  .get('http://blabla-yogurt-blabliblu-blo.com', function () {});
