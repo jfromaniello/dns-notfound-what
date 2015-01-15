@@ -45,7 +45,13 @@ Put this at the beginning of your application:
 require('dns-notfound-what');
 ```
 
+## Debug
 
+Optionally you can enable debug logs:
+
+```
+DEBUG=dns.lookup node server.js
+```
 
 ## License
 
